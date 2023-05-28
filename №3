@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+double a, b, s, p;
+	cout << "Input number a ";
+	cin >> a;
+	cout << "Input number b ";
+	cin >> b;
+	s = a*b;
+	p = (a+b)*2;
+	cout << "Ps: " << s << endl;
+	cout << "Pr: " << p;
+}
