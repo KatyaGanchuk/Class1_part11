@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+double a, v, s;
+	cout << "Input number rebra a: ";
+	cin >> a;
+	v = a*a*a;
+	s = 6*a*a;
+	cout << "v kuba: " << v << endl;
+	cout << "Ps bokove: " << s;
+}
