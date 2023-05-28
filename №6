@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+double a,b,c,v,s;
+	cout << "Input number a: ";
+	cin >> a;
+	cout << "Input number b: ";
+	cin >> b;
+	cout << "Input number c: ";
+	cin >> c;
+	v = a*b*c;
+	s = 2*(a*b + b*c + a*c);
+	cout << "V paralelepipeda: " << v << endl;
+	cout << "S bokovoy poverkhnosti: " << s;
+}
